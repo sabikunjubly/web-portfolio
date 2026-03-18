@@ -1,3 +1,17 @@
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.btn{
+    border: 1px solid ;
+    padding: 14px 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 16px;
+    
+}
 body{
     width: 1130px;
     margin: 0 auto;
@@ -7,4 +21,29 @@ body{
     justify-content: space-between;
     justify-items: center;
     margin: 20px 0;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:64px;
+    background-color: rgba(254, 234, 233, 1);
+    padding:40px 50px ;
+}
+.hero-des h1{
+    font-size: 56px;
+    font-weight: bold;
+}
+.hero-des p{
+    color: #4E4E4E;
+    line-height: 26px;
+}
+.hero-des h3{
+    font-size: 41px;
+    font-weight: medium;
+    margin: 10px 0;
+    color: #FF136F;
+}
+.hero-btn{
+    background:linear-gradient(to bottom, #FF589B, #FF136F); ;
 }
