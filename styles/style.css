@@ -190,6 +190,9 @@ footer{
         margin: 30px;
 
     }
+    .shoes-card1>img{
+        width:297px;
+    }
     .shoes-card > div{
         padding: 0px;
     }
@@ -197,7 +200,10 @@ footer{
         text-align: center;
     }
     footer{
-        padding: 30px;
+        padding:20px;
+    }
+    .footer-btn input{
+        padding: 5px;
     }
     
 }
