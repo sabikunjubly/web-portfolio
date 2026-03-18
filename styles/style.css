@@ -13,7 +13,7 @@
     
 }
 body{
-    width: 1130px;
+    max-width: 1130px;
     margin: 0 auto;
 }
 header{
@@ -137,14 +137,10 @@ footer{
 .footer > p{
     color: #4E4E4E;
 }
-input{
-    padding: 22px 200px 22px  36px;
-
-}
 
 .footer-btn {
-  width: 683px;
-  height: 73px;
+  max-width: 683px;
+  min-height: 73px;
   margin: 0 auto;
   display: flex;
   border-radius: 8px;
@@ -167,4 +163,41 @@ input{
   font-size: 16px;
   cursor: pointer;
   background: linear-gradient(45deg, #ff3c7f, #ff6a3d);
+}
+/* responsive */
+@media screen and (max-width:576px){
+    .logo{
+        margin: 10px;
+    }
+    .hero{
+        flex-direction: column;
+        margin: 12px;
+        padding:20px;
+    
+    }
+    .hero-des h1{
+        font-size: 36px;
+    }
+    .categories-cards{
+        flex-direction: column;
+        margin: 24px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .shoes-cards{
+        flex-direction: column;
+        margin: 30px;
+
+    }
+    .shoes-card > div{
+        padding: 0px;
+    }
+    .shoes-card-title1{
+        text-align: center;
+    }
+    footer{
+        padding: 30px;
+    }
+    
 }
