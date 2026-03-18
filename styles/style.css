@@ -83,6 +83,9 @@ align-items: center;
 padding: 24px 48px ;
 border-radius:12px ;
 }
+.arrow{
+    color: white;
+}
 .shoes{
     margin-bottom:60px ;
 }
@@ -108,8 +111,8 @@ border-radius:12px ;
 }
 .shoes-card-title1{
  text-align: left;
- font-size:24px ;
-    font-weight: 800;
+font-size:24px ;
+font-weight: 800;
 }
 .shoes-card-title{
     font-size:24px ;
@@ -165,6 +168,7 @@ footer{
   background: linear-gradient(45deg, #ff3c7f, #ff6a3d);
 }
 /* responsive */
+/* mobile screen */
 @media screen and (max-width:576px){
     .logo{
         margin: 10px;
@@ -192,15 +196,58 @@ footer{
     }
     .shoes-card1>img{
         width:297px;
+        padding-right: 16px;
     }
     .shoes-card > div{
         padding: 0px;
     }
     .shoes-card-title1{
         text-align: center;
+        font-weight: 600;
+    }
+    .shoes-card-title{
+        font-weight: 600;
     }
     footer{
         padding:20px;
+        margin-bottom: 10px;
+    }
+    .footer-btn input{
+        padding: 5px;
+    }
+    
+}
+/* Tablet */
+@media (max-width: 992px) {
+    .hero{
+        flex-direction: column;
+        margin: 12px;
+        padding:20px;
+    
+    }
+    .hero-des h1{
+        font-size: 42px;
+    }
+    .categories-cards{
+        flex-direction: column;
+        margin: 32px;
+        padding: 20px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .shoes-cards{
+        flex-direction: column;
+        margin: 60px;
+
+    }
+    
+    .shoes-card-title1{
+        text-align: center; 
+    }
+    footer{
+        padding:20px;
+        margin-bottom: 10px;
     }
     .footer-btn input{
         padding: 5px;
