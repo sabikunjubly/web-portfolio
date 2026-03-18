@@ -16,6 +16,9 @@ body{
     width: 1130px;
     margin: 0 auto;
 }
+header{
+    margin-bottom: 60px;
+}
 .logo{
     display: flex;
     justify-content: space-between;
@@ -29,6 +32,7 @@ body{
     gap:64px;
     background-color: rgba(254, 234, 233, 1);
     padding:40px 50px ;
+    border-radius: 12px;
 }
 .hero-des h1{
     font-size: 56px;
@@ -46,4 +50,66 @@ body{
 }
 .hero-btn{
     background:linear-gradient(to bottom, #FF589B, #FF136F); ;
+}
+.categories{
+    margin-bottom: 60px;
+}
+.section-title{
+    font-size: 36px;
+    font-weight:700;
+}
+
+.card1{
+    background-color:#FF9C35 ;
+}
+.card2{
+    background-color:#FF136F ;
+}
+.card3{
+    background-color:#3F07F8;
+
+}
+.categories-cards{
+    display: flex;
+    gap: 26px;
+}
+.categories-cards > div{
+flex:1;
+color: #FFFFFF;
+font-size:36px ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 24px 48px ;
+border-radius:12px ;
+}
+.shoes-cards{
+    display: flex;
+    gap: 24px;
+}
+.shoes-cards > div{
+    flex: 1;
+    text-align:center;
+    border: 2px solid rgba(146, 146, 146, 1);
+    border-radius: 20px;
+    padding: 26px;
+}
+.shoes-cards p{
+    color: #4E4E4E;
+}
+.shoes-cards h3{
+    font-size: 24px;
+    
+}
+.shoes-card-title1{
+ text-align: left;
+ font-size:24px ;
+    font-weight: 800;
+}
+.shoes-card-title{
+    font-size:24px ;
+    font-weight: 800;
+}
+.shoes-btn{
+    background-color: #000000;
 }
