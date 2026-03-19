@@ -35,7 +35,7 @@ header{
     border-radius: 12px;
 }
 .hero-img> img{
-    max-width: 100%;
+    max-width: 350px;
 }
 .hero-des h1{
     font-size: 56px;
@@ -237,6 +237,9 @@ footer{
     .footer> h1{
         font-size: 22px;
         
+    }
+    .footer> p{
+        font-size: 12px;
     }
    .footer-btn input,
   .footer-btn button {
